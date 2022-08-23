@@ -27,6 +27,9 @@ so we can add what the code will excute if its true and the same if its false .<
 let temp = ((x===y) ? console.log(true) : console.log(false)
 **                           **
 **                           **
+
+ ## Things I want to know more about:
+ **Can it be used if we have more that 2 returns ?**. 
 ## **Source :**
 > https://reactjs.org/docs/forms.html<br>
 > https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff
