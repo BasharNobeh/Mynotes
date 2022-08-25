@@ -1,6 +1,6 @@
 
 ## Main Goal : 
-- **To Track My Knowledge Imporevments **<br>
+- **To Track My Knowledge Imporevments**<br>
 - **Code changes**<br>
 - **To Keep an eye on the project**<br>
 - **To Remind mySelf with what I learned**<br>
