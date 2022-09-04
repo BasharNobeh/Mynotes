@@ -3,6 +3,10 @@
 
 100’s = continue the request 200’s = OK 300’s = Multiple Choice 400’s = Bad Request 500’s = server error What is a status code 202?
 **                ** 
+What is a status code 202?
+ 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet.
+ 
+**                ** 
 What is a status code 308?
 Accepted
 **                ** 
