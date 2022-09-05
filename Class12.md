@@ -1,51 +1,87 @@
-**                ** 
-**                ** 
+# Topic : CRUD
 
-100’s = continue the request 200’s = OK 300’s = Multiple Choice 400’s = Bad Request 500’s = server error What is a status code 202?
-**                ** 
-What is a status code 202?
- 202 Accepted response status code indicates that the request has been accepted for processing, but the processing has not been completed; in fact, processing may not have started yet.
- 
-**                ** 
-What is a status code 308?
-Accepted
-**                ** 
-what code would you use if an update didn’t return data to a client?
-204/ 404
-**                ** 
-What code would you use if a resource used to exist but no longer does?
-409 Conflict
-**                ** 
-What is the ‘Forbidden’ status code?
-403
-**                ** 
-Why do we need to pull our MongoDB database string out of our server and put it into our .env?
-Becuase its using a local host string path and when we deploy our application it won’t be in our local host so we put it in .env.
-**                ** 
-What is middleware?
-Middleware is software that provides common services and capabilities to applications outside of what’s offered by the operating system.
-**                ** 
-What does app.use(express.json()) do?
-express. json() is a method inbuilt in express to recognize the incoming Request Object as a JSON Object. This method is called as a middleware in your application using the code: app.
-**                ** 
-What does the /:id mean in a route?
-Route parameters are named URL segments that are used to capture the values specified at their position in the URL. The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys.
-**                ** 
-What is the difference between PUT and PATCH?
-The main difference between the PUT and PATCH method is that the PUT method uses the request URI to supply a modified version of the requested resource which replaces the original version of the resource, whereas the PATCH method supplies a set of instructions to modify the resource.
-**                ** 
-How do you make a default value in a schema?
+> One of the most important aspects in databases are Creating data, Reading data, Updating data and Deleting data which is CRUD.
+
+---
+---
+
+**In your own words, describe what each group of status code represents:**
+
+**100's =** The request is recieved and the rerver will try to complete the request.
+
+**200's =** It means that the request is succesfully completed.
+
+**300's =** It tells the client that the resource they are requesting isn’t available at the expected location anymore.
+
+**400's =** Invalid requests
+
+**500's =** Error from the server side.
+
+**What is a status code 202?**
+
+This code tells the client that the request was valid, but its processing will finish sometime in the future.
+
+**
+What is a status code 308?**
+
+This tells the client to use another URL to access the resource and not use the current URL anymore.
+
+**What code would you use if an update didn't return data to a client?**
+
+204 or 404
+
+**What code would you use if a resource used to exist but no longer does?**
+
+409
+
+**What is the 'Forbidden' status code?**
+
+4.3
+
+**Why do we need to pull our MongoDB database string out of our server and put it into our .env?**
+
+To be hidden so that other people don't use it and when deploying the service can change the path easy.
+
+**What is middleware?**
+
+Is software that lies between an operating system and the applications running on it. Essentially functioning as hidden translation layer, middleware enables communication and data management for distributed applications.
+
+**What does app.use(express.json()) do?**
+
+It parses incoming JSON requests and puts the parsed data in req.
+
+**What does the /:id mean in a route?**
+
+it's a dynamic route, so req.params.id will be whatever comes after summary/ in that specific request.
+
+**What is the difference between PUT and PATCH?**
+
+PUT is a method of modifying resource where the client sends data that updates the entire resource . PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data.
+
+**How do you make a default value in a schema?**
+
 Your schemas can define default values for certain paths. If you create a new document without that path set, the default will kick in.
-**                ** 
-What does a 500 error status code mean?
-The HTTP status code 500 is a generic error response. It means that the server encountered an unexpected condition that prevented it from fulfilling the request.
-**                ** 
-What is the difference between a status 200 and a status 201?
-The 200 status code means that the request was received and understood and is being processed. A 201 status code indicates that a request was successful and as a result, a resource has been created (for example a new page).
 
-**                ** 
-**                ** 
-Sources : 
-https://www.geeksforgeeks.org/difference-between-put-and-patch-request/#:~:text=PUT%20is%20a%20method%20of%20modifying%20resource%20where%20the%20client,without%20modifying%20the%20entire%20data. <br > <br>
-https://docs.apigee.com/api-platform/troubleshoot/runtime/500-internal-server-error-0#:~:text=The%20HTTP%20status%20code%20500,other%20error%20code%20is%20suitable.<br > <br>
-https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/#:~:text=200%20OK%20%2D%20This%20is%20the,saving%20a%20currently%20edited%20document.<br > <br>
+**What does a 500 error status code mean?**
+
+Is a generic error response. It means that the server encountered an unexpected condition that prevented it from fulfilling the request.
+
+**What is the difference between a status 200 and a status 201?**
+
+The 200 status code is by far the most common returned. It means, simply, that the request was received and understood and is being processed. A 201 status code indicates that a request was successful and as a result, a resource has been created.
+
+---
+---
+
+## Things I want to know more about
+
+- webpack
+- Mongoose
+- MongoDB
+- SQL
+
+ ---
+
+## References
+
+[1] API Product Management, Jan 15, 2022, _Which HTTP Status Code to Use for Every CRUD App_, moesif.com, accessed 04 September 2022, <https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/>
