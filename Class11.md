@@ -1,4 +1,4 @@
-![](https://www.agiratech.com/wp-content/uploads/2018/01/Difference-between-SQL-and-NOSQL-2.png)
+
 
 
 ## What is a SQL database?
