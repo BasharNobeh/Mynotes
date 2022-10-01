@@ -1,6 +1,6 @@
 # Intro to Python
 ---
-## Big O :
+>## Big O :
 ### - What is Big O  ?
 <font size="2"> Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.</font> 
 ![image](https://user-images.githubusercontent.com/84404158/193421175-f1dad4cc-8767-40c2-b776-d1e2d0243846.png)
@@ -13,7 +13,7 @@ There are actually quite a few rules That we shoukd follow when it comes to big 
 4. Exponentials have greater complexity than polynomials as long as the coefficients are positive multiples of n
 5. Factorials have greater complexity than exponentials
 
-- Big O notation is a notation that is agreed upon which is primarily used to describe the worst case scenario when it comes to an algorithm or an expression in terms of time and space (memory) that is going to be spent and so on.
+> - Big O notation is a notation that is agreed upon which is primarily used to describe the worst case scenario when it comes to an algorithm or an expression in terms of time and space (memory) that is going to be spent and so on.
 
   
 ---
@@ -28,7 +28,7 @@ Names are not restricted to particular types of values; they can be reassigned d
 Moreover, despite the fact that the subject of the video appears to be straightforward, I believe it to be of crucial importance.
 
 ---
-### Sources : 
+>### Sources : 
 https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/
 
 https://www.codenewbie.org/basecs/8
