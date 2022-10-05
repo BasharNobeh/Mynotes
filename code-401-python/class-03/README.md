@@ -63,6 +63,9 @@ bool ContainsDuplicates(IList<string> elements)
 - O(2^N) : O(2n) denotes an algorithm whose growth doubles with each addition to the input data set. The growth curve of an O(2n) function is exponential - starting off very shallow, then rising meteorically.<br>
 
 > Example : 
+
+
+
 ```
 
 int Fibonacci(int number)
