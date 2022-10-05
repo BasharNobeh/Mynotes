@@ -26,7 +26,6 @@ def OddOrEven(n):
 > Example :
 
 ```
-
 bool ContainsValue(IEnumerable<string> elements, string value)
 {
     foreach (var element in elements)
@@ -39,7 +38,8 @@ bool ContainsValue(IEnumerable<string> elements, string value)
 ```
 
 - O(N²) : O(n²) means that the calculation runs in quadratic time, which is the squared size of the input data<br>
-> Example : 
+> Example : <br>
+
 
 ```
 
