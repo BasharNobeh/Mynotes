@@ -8,10 +8,12 @@
 
 
 ---
+
 ### Here are some common orders of growth along with descriptions and examples where possible.
 
 - O(1) : O(1) means that it takes a constant time, like 14 nanoseconds, or three minutes no matter the amount of data in the set.<br>
 > Example :
+
 
 ```
 
@@ -21,7 +23,8 @@ def OddOrEven(n):
 ```
 
 - O(N) : N refers to the size of the input, in your case it's the number of items in your list. O(N) means that your algorithm will take on the order of n operations to insert an item.<br>
-> Example  
+> Example :
+
 ```
 
 bool ContainsValue(IEnumerable<string> elements, string value)
@@ -37,6 +40,7 @@ bool ContainsValue(IEnumerable<string> elements, string value)
 
 - O(N²) : O(n²) means that the calculation runs in quadratic time, which is the squared size of the input data<br>
 > Example : 
+
 ```
 
 bool ContainsDuplicates(IList<string> elements)
