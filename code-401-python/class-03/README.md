@@ -89,13 +89,16 @@ Logarithms or log: A mathematical concept/expression that’s used a lot in Comp
 
 ---
 >### Sources : 
-https://towardsdatascience.com/logarithms-exponents-in-complexity-analysis-b8071979e847#:~:text=Logarithms%20or%20log%3A%20A%20mathematical,to%20raise%20to%2C%20to%20get
 
-https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation
 
-https://skerritt.blog/big-o/
 
-https://towardsdatascience.com/introduction-to-big-o-notation-820d2e25d3fd
+[towardsdatascience.com - logarithms-exponents-in-complexity-analysis ](https://towardsdatascience.com/logarithms-exponents-in-complexity-analysis-b8071979e847#:~:text=Logarithms%20or%20log%3A%20A%20mathematical,to%20raise%20to%2C%20to%20get)
+
+[rob-bell.net](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation)
+
+[skerritt.blog](https://skerritt.blog/big-o/)
+
+[towardsdatascience.com - introduction-to-big-o-notation](https://towardsdatascience.com/introduction-to-big-o-notation-820d2e25d3fd)
 
 
 
