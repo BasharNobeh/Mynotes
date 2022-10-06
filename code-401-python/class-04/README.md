@@ -72,6 +72,8 @@ except FileNotFoundError:
 
 ---
 >### Sources : 
+  
+  
 [python-exceptions - realpython.com](https://realpython.com/python-exceptions/#exceptions-versus-syntax-errors)
 
 [read-write-files-python](https://realpython.com/read-write-files-python/)
