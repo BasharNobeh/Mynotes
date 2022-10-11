@@ -95,13 +95,49 @@ There are three steps to take:
 ---
 ## Dependency Injection
 
+Dependency injection is a technique in which one object (or static method) provides the dependencies of another. A dependency is a reusable object (a service).
+
+#### Dependency injection is classified into three types:
+- Dependencies are provided via a class constructor via constructor injection.
+- Setter injection occurs when the client exposes a setter method to the injector, which the injector uses to inject the dependency.
+- Interface injection: the dependency includes an injector method that injects the dependency into any client that is passed to it. Clients must implement an interface that exposes a dependency-accepting setter method.
+
+
+So it is now the responsibility of the dependency injection to:
+
+Make the objects
+Determine which classes require those objects and provide them with all of them.
+
+#### The use of DI aids in unit testing.
+- Because the injector component handles dependency initialization, boiler plate code is reduced.
+- Extending the application becomes less difficult.
+- Allows for loose coupling, which is essential in application programming.
+
+#### The Drawbacks of DI
+- It's a bit difficult to learn, and overuse can lead to management issues and other issues.
+- Many compilation errors are propagated to run-time.
+- Reflection or dynamic programming are used to implement dependency injection frameworks. This can make it difficult to use IDE automation features like "find references," "show call hierarchy," and safe refactoring.
+
+
+#### Libraries and Frameworks that implement DI
+- Spring (Java)
+- Google Guice (Java)
+- Dagger (Java and Android)
+- Castle Windsor (.NET)
+- Unity(.NET)
+
 
 
 ---
 >### Sources : 
-[1](https://medium.com/@Mahmoud_Zalt/software-design-patterns-simplified-8a72232d52b1)
-[2](https://www.edureka.co/blog/risk-analysis-in-software-testing/)
-[3](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)
+[1](https://medium.com/@Mahmoud_Zalt/software-design-patterns-simplified-8a72232d52b1)<br>
+[2](https://www.edureka.co/blog/risk-analysis-in-software-testing/)<br>
+[3](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)<br>
+[4](https://www.tutorialspoint.com/design_pattern/observer_pattern.htm)<br>
+[5](https://apps.urban.org/features/risk-assessment/)<br>
+[6](https://refactoring.guru/design-patterns/mediator)<br>
+[7](https://refactoring.guru/design-patterns/abstract-factory)<br>
+[8](https://en.wikipedia.org/wiki/Software_design_pattern)<br>
 
 
 
